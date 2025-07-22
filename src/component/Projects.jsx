@@ -2,6 +2,7 @@ import React from 'react'
 import project1 from '../assets/project1.png'
 import project2 from '../assets/Project2.png'
 import project3 from '../assets/project3.png'
+import project4 from '../assets/project4.png'
 import { BsArrowRight } from "react-icons/bs";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -16,6 +17,21 @@ const Projects = () => {
               Here are some of the projects I’ve built using React JS, Tailwind CSS, and other modern web technologies. Each project reflects my passion for creating responsive, user-friendly web applications.
 
           </p>
+      </div>
+      <div className='lg:px-10 px-6 lg:pt-2 pt-3 lg:pb-5 pb-2 w-full h-full flex lg:flex-row flex-col justify-between items-start text-center gap-10'>
+        <div className='lg:w-3/5 w-full flex flex-col justify-center text-start gap-5' data-aos="fade-left" data-aos-duration="1000">
+            <h1 className='lg:text-3xl text-2xl text-white  mb-5 font-bold font-poppins'>Travel Agency Website</h1>
+            <p className='text-gray-300 lg:text-xl text-lg font-poppins'>
+                A modern, responsive single-page web application built with React and Tailwind CSS, designed to showcase travel destinations, services, and customer engagement.            </p>
+            <div className='flex flex-row items-center gap-2'>
+                <a href="https://github.com/sindhustellus/travel_agency" className='text-themered font-poppins font-semibold lg:text-lg text-sm'>Source Code </a>
+                <BsArrowRight className="text-themered lg:text-lg text-sm" />
+
+            </div>
+        </div>
+        <div className='lg:w-2/5 w-full shadow-lg'data-aos="fade-right" data-aos-duration="1000">
+          <img src={project4} alt="project4" className='lg:w-[500px] w-[500px] lg:h-[300px] h-[400px] rounded-lg'/>
+        </div>
       </div>
       <div className='lg:px-10 px-6 lg:pt-2 pt-3 lg:pb-5 pb-2 w-full h-full flex lg:flex-row flex-col justify-between items-start text-center gap-10'>
         <div className='lg:w-3/5 w-full flex flex-col justify-center text-start gap-5' data-aos="fade-left" data-aos-duration="1000">

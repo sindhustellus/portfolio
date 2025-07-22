@@ -2,7 +2,7 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <div id='education' className='lg:px-10 px-6 lg:pt-10 pt-10 lg:pb-10 pb-6 w-full h-full flex lg:flex-row flex-col justify-between items-center text-center gap-10'>
+    <div id='education' className='lg:px-20 px-6 lg:pt-10 pt-10 lg:pb-10 pb-6 w-full h-full flex lg:flex-row flex-col justify-between items-center text-center gap-10'>
       <div className='lg:w-1/2 w-full flex flex-col text-left gap-3' data-aos="fade-right" data-aos-duration="1000">
         <h1 className='lg:text-4xl text-2xl text-white border-b-4 mb-5 lg:w-[180px] w-[120px] font-bold font-poppins border-[#f50e32]'>Education</h1>
         <p className='lg:text-xl text-lg font-poppins font-bold'>MSC.Software Engineering</p>
